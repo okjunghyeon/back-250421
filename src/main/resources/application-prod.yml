@@ -6,7 +6,7 @@ spring:
       port: 6379
 
   datasource:
-    url: jdbc:mysql://mysql_1.internal:3306/glog_prod
+    url: jdbc:mysql://mysql_1:3306/glog_prod
     username: lldjlocal
     password: "${custom.prod.db.password}"
     driver-class-name: com.mysql.cj.jdbc.Driver
