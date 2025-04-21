@@ -1,5 +1,8 @@
 server:
   port: 8080
+  data:
+    redis:
+      port: 36379
 
 spring:
   application:

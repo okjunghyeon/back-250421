@@ -1,4 +1,8 @@
 spring:
+  data:
+    redis:
+      port: 36380
+
   datasource:
     url: jdbc:h2:mem:db_test;MODE=MySQL
     username: sa
