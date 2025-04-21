@@ -1,10 +1,11 @@
 server:
   port: 8080
+
+spring:
   data:
     redis:
       port: 36379
 
-spring:
   application:
     name: back-250421
   profiles:
